@@ -30,4 +30,35 @@ const myfunction= function() {
     console.log("hello world");
 }
 
-console.log( typeof myfunction);
+console.log(typeof myfunction);
+
+
+
+//***************************************************
+
+// stack (primitive), heap(Non primitive)
+
+let my="ritik"
+let anothermy=my
+ anothermy="rai"
+
+ console.log(anothermy);
+ console.log(my);
+
+let user={
+email:"user@gmail.com",
+upi:"user@ybl"
+
+}
+let userOne = user
+
+userOne.email="ritik@gmail.com"
+
+console.log(userOne.email);
+
+
+
+// In stack we get copy 
+
+// In heap we get real one 
+
